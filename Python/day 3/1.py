@@ -7,9 +7,16 @@
 # print("mod :",num1%num2)
 # print("floor :",num1//num2)
 
-username=input("Enter Username: ")
-password=input("Enter Password: ")
-if username=="Ganesh" and password=="Hello!World@":
-    print("Login Successfull !")
+# username=input("Enter Username: ")
+# password=input("Enter Password: ")
+# if username=="Ganesh" and password=="Hello!World@":
+#     print("Login Successfull !")
+# else:
+#     print("Try Again !")
+
+
+status=input(" Enter Your Status : ")
+if status=="student" or status=="employee":
+    print("Join Course")
 else:
-    print("Try Again !")
+    print(" Not Eligible ")
